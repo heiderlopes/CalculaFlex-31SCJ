@@ -55,4 +55,9 @@
         <item name="android:inputType">numberDecimal</item>
     </style>
 
+    <style name="button"  parent="margin_default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>

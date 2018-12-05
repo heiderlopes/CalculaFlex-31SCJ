@@ -40,4 +40,39 @@
             android:hint="Ex. 2.5" />
     </LinearLayout>
 
+    <View style="@style/divider" />
+
+    <TextView
+        style="@style/header_title"
+        android:drawableLeft="@drawable/car_icon"
+        android:text="Consumo médio" />
+
+    <View style="@style/divider" />
+
+    <LinearLayout style="@style/container_row">
+
+        <TextView
+            style="@style/header_subtitle"
+            android:text="Km/L Gasolina" />
+
+        <TextView
+            style="@style/header_subtitle"
+            android:text="Km/L Etanol" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/container_row">
+
+        <EditText
+            style="@style/input_number_decimal"
+            android:hint="Ex. 9" />
+
+        <EditText
+            style="@style/input_number_decimal"
+            android:hint="Ex. 5" />
+    </LinearLayout>
+
+    <Button
+        style="@style/button"
+        android:text="Calcular" />
+
 </LinearLayout>
